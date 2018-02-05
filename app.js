@@ -39,7 +39,7 @@ const Stopwatch = {
       
     },
     stop: function(){
-        if(this.isRunning === true){
+        if(this.isRunning){
             this.isRunning = false;
         }
       
